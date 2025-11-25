@@ -1,5 +1,3 @@
-# main.py (Interactive Version)
-
 import os
 from src.models import Student, Course, Quiz, Progress
 from src.factory import EntityFactory
@@ -31,8 +29,6 @@ def run():
     while True:
         choice = menu()
 
-        # --------------------------
-        # 1. Add Student
         if choice == "1":
             clear()
             print("📌 Add New Student")
@@ -46,8 +42,6 @@ def run():
             student_repo.create(new_student)
             print("✔️ Student Added!\n")
 
-        # --------------------------
-        # 2. Get Student
         elif choice == "2":
             clear()
             sid = input("Enter Student ID: ")
@@ -63,8 +57,6 @@ def run():
             else:
                 print("❌ Student not found.")
 
-        # --------------------------
-        # 3. Add Course
         elif choice == "3":
             clear()
             print("📌 Add New Course")
@@ -78,8 +70,6 @@ def run():
             course_repo.create(course)
             print("✔️ Course Added!\n")
 
-        # --------------------------
-        # 4. Get Course
         elif choice == "4":
             clear()
             cid = input("Enter Course ID: ")
@@ -95,8 +85,7 @@ def run():
             else:
                 print("❌ Course not found.")
 
-        # --------------------------
-        # 5. Add Quiz
+
         elif choice == "5":
             clear()
             print("📌 Add Quiz")
@@ -115,8 +104,7 @@ def run():
             quiz_repo.create(quiz)
             print("✔️ Quiz Added!\n")
 
-        # --------------------------
-        # 6. Get Quiz
+
         elif choice == "6":
             clear()
             qid = input("Enter Quiz ID: ")
@@ -133,8 +121,7 @@ def run():
             else:
                 print("❌ Quiz not found.")
 
-        # --------------------------
-        # 7. Add Progress
+
         elif choice == "7":
             clear()
             print("📌 Add Progress")
@@ -153,8 +140,7 @@ def run():
             progress_repo.create(prog)
             print("✔️ Progress Added!\n")
 
-        # --------------------------
-        # 8. Get Progress
+
         elif choice == "8":
             clear()
             pid = input("Enter Progress ID: ")
@@ -171,7 +157,6 @@ def run():
             else:
                 print("❌ Progress not found.")
 
-        # --------------------------
         elif choice == "9":
             print("Exiting...")
             break
