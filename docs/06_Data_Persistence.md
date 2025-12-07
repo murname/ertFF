@@ -19,7 +19,8 @@ Files stored in /data:
 ## CRUD Supported
 - Create (append to JSON)
 - Read (search by ID)
-
+- Update: Modify fields, preserving constraints (email/title uniqueness needs additional checks)
+- Delete: Remove entries; referential integrity currently needs caution
 ## Error Handling
 Handled using try/except in:
 - `_load_data()`

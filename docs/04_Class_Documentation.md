@@ -69,5 +69,15 @@ Methods:
 - input_number
 - input_alpha_spaces
 
-Purpose:
-Isolates all non-domain-specific helper functions, keeping core classes clean (High Cohesion).
+Purpose:Isolates all non-domain-specific helper functions, keeping core classes clean (High Cohesion).
+
+## Service Classes
+- StudentService, CourseService, QuizService, ProgressService
+Responsibilities:
+- Encapsulate business logic for each entity
+- Validate input, enforce referential integrity
+- Interact with repository layer for create, update, delete operations
+- Log all operations (creation, update, deletion)
+
+Purpose: Keep core business logic separate from the controller (main.py).
+
