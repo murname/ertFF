@@ -3,21 +3,25 @@
 ## Folder Structure
 
 /erFF
-/src
-models.py
-factory.py
-repository.py
-utils.py
-/tests
-test_models.py
-/docs
-(*.md files)
-main.py
-/data
-students.json
-courses.json
-quizzes.json
-progress.json
+    /src
+        models.py
+        factory.py
+        repository.py
+        utils.py
+        logging_config.py
+        services.py
+    /tests
+        test_models.py
+        test_repository.py
+        test_services.py
+    /docs
+        (*.md files)
+    main.py
+    /data
+        students.json
+        courses.json
+        quizzes.json
+        progress.json
 
 ## Core Architectural Decisions
 
@@ -39,10 +43,24 @@ Improves scalability and reduces coupling.
 
 ### 4. High Cohesion, Low Coupling
 - Each class has a clearly defined purpose.
+    Models: store data structure and to_dict() method.
+    Repository: persistence only.
+    Factory: object creation.
+    Services: business logic.
+    Main.py: handles user input and orchestrates operations.
 - Storage logic is isolated from business classes.
 - Object creation is isolated from logic (Factory).
 
 ## Interactions
 - User → main.py (controller)
-- main.py → Factory → Model Objects
-- main.py → Repository → JSON Data
+- Controller → Service Layer
+- Service → Factory → Model Objects
+- Service → Repository → JSON Data
+
+## Data Flow Example
+- User selects “Add Student” in CLI.
+- main.py collects student info.
+- StudentService.create_student() is called.
+- EntityFactory creates a Student object.
+- JsonRepository.create() stores the object in students.json.
+- Logging records the operation.
