@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "id": "2",
+        "course_id": "0",
+        "title": "quiz",
+        "max_score": 100
+    },
+    {
+        "id": "f475fde0-0fc0-42eb-9e67-991ed2bfdb3e",
+        "course_id": "1",
+        "title": "quz",
+        "max_score": 100
+    },
+    {
+        "id": "1",
+        "course_id": "4",
+        "title": "quz",
+        "max_score": 100
+    },
+    {
+        "id": "6",
+        "course_id": "4",
+        "title": "quiz2",
+        "max_score": 10
+    }
+]

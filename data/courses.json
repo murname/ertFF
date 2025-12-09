@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": "5c157c9f-3e51-4d78-8d9f-0f8488a28839",
+        "title": "intro it",
+        "instructor": "MURAD"
+    },
+    {
+        "id": "f4341ba3-cc35-411a-965d-3183eb9805d0",
+        "title": "intro",
+        "instructor": "Fidan"
+    }
+]

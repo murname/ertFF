@@ -16,8 +16,6 @@ def input_non_empty(prompt):
 
 def input_optional_id(prompt):
 
-    """Prompt user for an ID; return None if left empty."""
-
     """Prompt user for an ID"""
     value = input(prompt).strip()
     return value if value else str(uuid.uuid4())

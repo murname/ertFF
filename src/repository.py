@@ -57,8 +57,6 @@ class JsonRepository:
         data.append(entity_dict)
         self._save_data(data)
 
-        logger.info(f"{self.entity_name} created with ID {entity_dict['id']}")
-
     # --- UPDATE ---
     def update(self, entity_id, new_data):
         data = self._load_data()
@@ -84,7 +82,6 @@ class JsonRepository:
             raise ValueError(f"{self.entity_name} with ID '{entity_id}' not found.")
 
         self._save_data(data)
-        logger.info(f"{self.entity_name} updated (ID: {entity_id})")
 
     # --- DELETE ---
     def delete(self, entity_id):
@@ -95,4 +92,3 @@ class JsonRepository:
             raise ValueError(f"{self.entity_name} with ID '{entity_id}' not found.")
 
         self._save_data(new_data)
-        logger.info(f"{self.entity_name} deleted (ID: {entity_id})")

@@ -16,7 +16,7 @@ def run():
     # --- Initialize Services ---
     student_service = StudentService(student_repo)
     course_service = CourseService(course_repo)
-    quiz_service = QuizService(quiz_repo)
+    quiz_service = QuizService(quiz_repo, course_repo)
     progress_service = ProgressService(student_repo, quiz_repo, progress_repo)
 
     valid_choices = {str(i) for i in range(1, 22)}

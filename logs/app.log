@@ -1,198 +1,54 @@
-<<<<<<< HEAD
-=======
-2025-12-07 20:09:42,065 - INFO - AppLogger - Application started
-2025-12-07 20:10:02,042 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 20:10:02,042 - INFO - AppLogger - Student created with ID c2a0cea1-835a-421e-a3fc-c95ca8ecf83a
-2025-12-07 20:10:15,033 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 20:10:15,033 - INFO - AppLogger - Student created with ID bc38090e-f340-4bda-96ec-f0b40a72dfd0
-2025-12-07 20:10:35,115 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 20:10:35,116 - INFO - AppLogger - Student created with ID 6aac2e07-6641-4e1e-942f-47bc5c4492f9
-2025-12-07 22:19:48,720 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 22:19:48,721 - INFO - AppLogger - Student created with ID 560dc053-a6e1-440f-b646-df2f5c53e44a
-2025-12-07 22:38:19,473 - INFO - AppLogger - Application exited.
-2025-12-07 23:06:54,207 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,208 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,208 - INFO - AppLogger - Student created with ID S001
-2025-12-07 23:06:54,209 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,210 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,210 - INFO - AppLogger - Student created with ID S003
-2025-12-07 23:06:54,212 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,213 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,213 - INFO - AppLogger - Student created with ID S002
-2025-12-07 23:06:54,214 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,215 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:06:54,217 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,303 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,304 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:08:01,305 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:08:01,305 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:08:01,306 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,307 - INFO - AppLogger - Student created with ID S002
-2025-12-07 23:08:01,307 - INFO - AppLogger - Student created (ID: S002)
-2025-12-07 23:08:01,307 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:08:01,307 - INFO - AppLogger - Course created with ID C02
-2025-12-07 23:08:01,307 - INFO - AppLogger - Course created (ID: C02)
-2025-12-07 23:08:01,308 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:08:01,308 - INFO - AppLogger - Quiz created with ID Q02
-2025-12-07 23:08:01,308 - INFO - AppLogger - Quiz created (ID: Q02)
-2025-12-07 23:08:01,309 - ERROR - AppLogger - Score 100 out of range for quiz Q02
-2025-12-07 23:08:01,310 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,310 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:08:01,310 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:08:01,311 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:08:01,311 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:08:01,311 - INFO - AppLogger - Course created with ID C01
-2025-12-07 23:08:01,311 - INFO - AppLogger - Course created (ID: C01)
-2025-12-07 23:08:01,312 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:08:01,312 - INFO - AppLogger - Quiz created with ID Q01
-2025-12-07 23:08:01,312 - INFO - AppLogger - Quiz created (ID: Q01)
-2025-12-07 23:08:01,312 - ERROR - AppLogger - Student ID NON does not exist for progress creation
-2025-12-07 23:08:01,313 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,313 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:08:01,314 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:08:01,314 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:08:01,315 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,315 - INFO - AppLogger - Student created with ID S001
-2025-12-07 23:08:01,315 - INFO - AppLogger - Student created (ID: S001)
-2025-12-07 23:08:01,316 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,316 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:08:01,317 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:08:01,317 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:08:01,318 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:08:01,318 - INFO - AppLogger - Student created with ID S003
-2025-12-07 23:08:01,318 - INFO - AppLogger - Student created (ID: S003)
-2025-12-07 23:08:01,319 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:08:01,319 - INFO - AppLogger - Course created with ID C03
-2025-12-07 23:08:01,319 - INFO - AppLogger - Course created (ID: C03)
-2025-12-07 23:08:01,320 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:08:01,320 - INFO - AppLogger - Quiz created with ID Q03
-2025-12-07 23:08:01,320 - INFO - AppLogger - Quiz created (ID: Q03)
-2025-12-07 23:08:01,321 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:08:01,321 - INFO - AppLogger - Progress created with ID P03
-2025-12-07 23:08:01,321 - INFO - AppLogger - Progress created (ID: P03)
-2025-12-07 23:08:01,321 - ERROR - AppLogger - Score 50 out of range for quiz Q03
-2025-12-07 23:09:43,475 - INFO - AppLogger - Application started
-2025-12-07 23:09:57,296 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:09:57,296 - INFO - AppLogger - Student created with ID 13519de7-a43b-472e-9c42-95c04135e6e6
-2025-12-07 23:09:57,296 - INFO - AppLogger - Student created (ID: 13519de7-a43b-472e-9c42-95c04135e6e6)
-2025-12-07 23:10:14,516 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:10:14,516 - INFO - AppLogger - Student created with ID 5f8f2abf-2b94-4830-a6f6-100b0dab9a94
-2025-12-07 23:10:14,516 - INFO - AppLogger - Student created (ID: 5f8f2abf-2b94-4830-a6f6-100b0dab9a94)
-2025-12-07 23:10:32,012 - ERROR - AppLogger - Error: Email '21' already exists.
-2025-12-07 23:11:22,025 - ERROR - AppLogger - Student ID qw not found for update
-2025-12-07 23:11:22,025 - ERROR - AppLogger - Error: Student ID qw not found.
-2025-12-07 23:11:58,005 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:11:58,006 - INFO - AppLogger - Student updated (ID: S003)
-2025-12-07 23:11:58,006 - INFO - AppLogger - Student updated (ID: S003)
-2025-12-07 23:12:33,292 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:12:33,292 - INFO - AppLogger - Course created with ID 76465486-0f58-449c-af07-bc1b609d3f34
-2025-12-07 23:12:33,292 - INFO - AppLogger - Course created (ID: 76465486-0f58-449c-af07-bc1b609d3f34)
-2025-12-07 23:13:00,174 - ERROR - AppLogger - Error: ID 'C03' already exists.
-2025-12-07 23:13:25,618 - ERROR - AppLogger - Error: Course title 'qwe' already exists.
-2025-12-07 23:13:43,996 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:13:43,996 - INFO - AppLogger - Course created with ID 00018981-1e08-43ee-9d26-1405939cb1d3
-2025-12-07 23:13:43,996 - INFO - AppLogger - Course created (ID: 00018981-1e08-43ee-9d26-1405939cb1d3)
-2025-12-07 23:14:15,328 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:14:15,328 - INFO - AppLogger - Quiz created with ID 85c9b83f-3eb0-4ed1-8583-3aa0eb4a651e
-2025-12-07 23:14:15,328 - INFO - AppLogger - Quiz created (ID: 85c9b83f-3eb0-4ed1-8583-3aa0eb4a651e)
-2025-12-07 23:14:31,136 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:14:31,136 - INFO - AppLogger - Course created with ID 3
-2025-12-07 23:14:31,136 - INFO - AppLogger - Course created (ID: 3)
-2025-12-07 23:14:46,753 - ERROR - AppLogger - Error: ID 'Q03' already exists.
-2025-12-07 23:15:16,210 - ERROR - AppLogger - Student ID 121 does not exist for progress creation
-2025-12-07 23:15:16,210 - ERROR - AppLogger - Error: Student ID does not exist.
-2025-12-07 23:15:44,550 - ERROR - AppLogger - Quiz ID wdqdw does not exist for progress creation
-2025-12-07 23:15:44,550 - ERROR - AppLogger - Error: Quiz ID does not exist.
-2025-12-07 23:16:23,539 - ERROR - AppLogger - Error: ID 'P03' already exists.
-2025-12-07 23:17:34,747 - ERROR - AppLogger - Quiz ID 5 does not exist for progress creation
-2025-12-07 23:17:34,747 - ERROR - AppLogger - Error: Quiz ID does not exist.
-2025-12-07 23:18:11,678 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:18:11,678 - INFO - AppLogger - Progress created with ID e09d4cd4-e9a9-4ee2-ac3e-b7e85bfd43fa
-2025-12-07 23:18:11,678 - INFO - AppLogger - Progress created (ID: e09d4cd4-e9a9-4ee2-ac3e-b7e85bfd43fa)
-2025-12-07 23:21:29,660 - ERROR - AppLogger - Student ID \ not found for update
-2025-12-07 23:21:29,660 - ERROR - AppLogger - Error: Student ID \ not found.
-2025-12-07 23:21:59,146 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:21:59,147 - INFO - AppLogger - Student updated (ID: S003)
-2025-12-07 23:21:59,147 - INFO - AppLogger - Student updated (ID: S003)
-2025-12-07 23:26:24,569 - INFO - AppLogger - Application exited.
-2025-12-07 23:26:31,500 - INFO - AppLogger - Application started
-2025-12-07 23:27:00,741 - ERROR - AppLogger - Student ID 2112 not found for update
-2025-12-07 23:27:00,741 - ERROR - AppLogger - Error: Student ID 2112 not found.
-2025-12-07 23:27:23,647 - ERROR - AppLogger - Error: Email 'murad' already exists.
-2025-12-07 23:27:51,425 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:27:51,425 - INFO - AppLogger - Course updated (ID: C03)
-2025-12-07 23:27:51,425 - INFO - AppLogger - Course updated (ID: C03)
-2025-12-07 23:29:48,715 - INFO - AppLogger - Application exited.
-2025-12-07 23:29:50,396 - INFO - AppLogger - Application started
-2025-12-07 23:30:20,555 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:30:20,556 - INFO - AppLogger - Quiz updated (ID: Q03)
-2025-12-07 23:30:20,556 - INFO - AppLogger - Quiz updated (ID: Q03)
-2025-12-07 23:31:02,146 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:31:02,146 - INFO - AppLogger - Quiz updated (ID: Q03)
-2025-12-07 23:31:02,147 - INFO - AppLogger - Quiz updated (ID: Q03)
-2025-12-07 23:31:17,367 - ERROR - AppLogger - Progress ID P not found for update
-2025-12-07 23:31:17,367 - ERROR - AppLogger - Error: Progress ID P not found.
-2025-12-07 23:31:57,220 - ERROR - AppLogger - Score 18 out of range for quiz Q03
-2025-12-07 23:31:57,220 - ERROR - AppLogger - Error: Score out of range.
-2025-12-07 23:32:13,411 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:32:13,411 - INFO - AppLogger - Progress updated (ID: P03)
-2025-12-07 23:32:13,411 - INFO - AppLogger - Progress updated (ID: P03)
-2025-12-07 23:32:33,999 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-07 23:32:33,999 - INFO - AppLogger - Student deleted (ID: 5f8f2abf-2b94-4830-a6f6-100b0dab9a94)
-2025-12-07 23:32:33,999 - INFO - AppLogger - Student deleted (ID: 5f8f2abf-2b94-4830-a6f6-100b0dab9a94)
-2025-12-07 23:32:47,314 - INFO - AppLogger - Course: Data saved successfully.
-2025-12-07 23:32:47,314 - INFO - AppLogger - Course deleted (ID: 00018981-1e08-43ee-9d26-1405939cb1d3)
-2025-12-07 23:32:47,314 - INFO - AppLogger - Course deleted (ID: 00018981-1e08-43ee-9d26-1405939cb1d3)
-2025-12-07 23:33:07,816 - INFO - AppLogger - Quiz: Data saved successfully.
-2025-12-07 23:33:07,817 - INFO - AppLogger - Quiz deleted (ID: Q03)
-2025-12-07 23:33:07,817 - INFO - AppLogger - Quiz deleted (ID: Q03)
-2025-12-07 23:33:16,018 - INFO - AppLogger - Progress: Data saved successfully.
-2025-12-07 23:33:16,018 - INFO - AppLogger - Progress deleted (ID: P03)
-2025-12-07 23:33:16,018 - INFO - AppLogger - Progress deleted (ID: P03)
-2025-12-07 23:33:18,387 - INFO - AppLogger - Application exited.
-2025-12-07 23:40:13,874 - INFO - AppLogger - Application started
-2025-12-07 23:40:23,696 - INFO - AppLogger - Application exited.
-2025-12-07 23:40:43,494 - INFO - AppLogger - Application started
-2025-12-07 23:40:49,372 - INFO - AppLogger - Application exited.
-2025-12-07 23:40:51,149 - INFO - AppLogger - Application started
-2025-12-07 23:41:37,586 - INFO - AppLogger - Application exited.
-2025-12-09 20:06:12,201 - INFO - AppLogger - Application started
-2025-12-09 20:16:55,083 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:16:55,083 - INFO - AppLogger - Student created with ID 09a41c58-0d16-4a2b-a3e2-a7c50ec30783
-2025-12-09 20:16:55,083 - INFO - AppLogger - Student created (ID: 09a41c58-0d16-4a2b-a3e2-a7c50ec30783)
-2025-12-09 20:17:15,873 - ERROR - AppLogger - Student ID jhdfjdsf not found for update
-2025-12-09 20:17:15,873 - ERROR - AppLogger - Error: Student ID jhdfjdsf not found.
-2025-12-09 20:37:28,392 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:37:28,392 - INFO - AppLogger - Student created with ID 12345a
-2025-12-09 20:37:28,392 - INFO - AppLogger - Student created (ID: 12345a)
-2025-12-09 20:37:46,262 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:37:46,262 - INFO - AppLogger - Student created with ID 1234a
-2025-12-09 20:37:46,262 - INFO - AppLogger - Student created (ID: 1234a)
-2025-12-09 20:39:31,507 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:39:31,507 - INFO - AppLogger - Student created with ID fdsfa
-2025-12-09 20:39:31,507 - INFO - AppLogger - Student created (ID: fdsfa)
-2025-12-09 20:39:58,647 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:39:58,648 - INFO - AppLogger - Student created with ID sdasd
-2025-12-09 20:39:58,648 - INFO - AppLogger - Student created (ID: sdasd)
-2025-12-09 20:42:09,992 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:42:09,992 - INFO - AppLogger - Student created with ID 2224ff59-f5c7-4c42-aaff-3895b77c722a
-2025-12-09 20:42:09,992 - INFO - AppLogger - Student created (ID: 2224ff59-f5c7-4c42-aaff-3895b77c722a)
-2025-12-09 20:47:12,458 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:47:12,458 - INFO - AppLogger - Student created with ID sdfds
-2025-12-09 20:47:12,458 - INFO - AppLogger - Student created (ID: sdfds)
-2025-12-09 20:49:23,718 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:49:23,718 - INFO - AppLogger - Student created with ID aaaa
-2025-12-09 20:49:23,718 - INFO - AppLogger - Student created (ID: aaaa)
-2025-12-09 20:51:17,838 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 20:51:17,838 - INFO - AppLogger - Student created with ID 40456a1c-80d4-4af8-950b-e8297d21c562
-2025-12-09 20:51:17,838 - INFO - AppLogger - Student created (ID: 40456a1c-80d4-4af8-950b-e8297d21c562)
-2025-12-09 21:04:26,575 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 21:04:26,575 - INFO - AppLogger - Student created with ID 0f2f4c0c-18b1-4b21-a86f-bceafd68dc14
-2025-12-09 21:04:26,575 - INFO - AppLogger - Student created (ID: 0f2f4c0c-18b1-4b21-a86f-bceafd68dc14)
-2025-12-09 21:04:53,636 - INFO - AppLogger - Student: Data saved successfully.
-2025-12-09 21:04:53,637 - INFO - AppLogger - Student created with ID fgjhhgj
-2025-12-09 21:04:53,637 - INFO - AppLogger - Student created (ID: fgjhhgj)
-2025-12-09 21:06:12,276 - INFO - AppLogger - Application started
-2025-12-09 21:06:16,662 - INFO - AppLogger - Application exited.
-2025-12-09 21:15:23,245 - INFO - AppLogger - Application started
->>>>>>> 5a2c23e6d23bde436501b20ee31b2e6861401066
+2025-12-09 22:37:47,956 - INFO - AppLogger - Application started
+2025-12-09 22:38:09,967 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 22:38:09,967 - INFO - AppLogger - Student created (ID: f04e7020-3dfc-4683-a662-5d27de662e04)
+2025-12-09 22:38:24,339 - ERROR - AppLogger - Error: Email 'mur@gmail' already exists.
+2025-12-09 22:38:46,463 - INFO - AppLogger - Course: Data saved successfully.
+2025-12-09 22:38:46,463 - INFO - AppLogger - Course created (ID: 5c157c9f-3e51-4d78-8d9f-0f8488a28839)
+2025-12-09 22:39:07,604 - INFO - AppLogger - Course: Data saved successfully.
+2025-12-09 22:39:07,604 - INFO - AppLogger - Course created (ID: 4)
+2025-12-09 22:39:39,195 - INFO - AppLogger - Quiz: Data saved successfully.
+2025-12-09 22:39:39,195 - INFO - AppLogger - Quiz created (ID: 2)
+2025-12-09 22:40:15,261 - INFO - AppLogger - Quiz: Data saved successfully.
+2025-12-09 22:40:15,261 - INFO - AppLogger - Quiz created (ID: f475fde0-0fc0-42eb-9e67-991ed2bfdb3e)
+2025-12-09 22:43:57,951 - INFO - AppLogger - Application exited.
+2025-12-09 22:44:21,240 - INFO - AppLogger - Application started
+2025-12-09 22:44:25,855 - INFO - AppLogger - Application started
+2025-12-09 22:46:05,847 - INFO - AppLogger - Application started
+2025-12-09 22:46:27,684 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 22:46:27,684 - INFO - AppLogger - Student created (ID: 52b95a3f-ab6d-42f9-a5d3-b63f8e03f246)
+2025-12-09 22:46:54,209 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 22:46:54,210 - INFO - AppLogger - Student created (ID: 4)
+2025-12-09 22:47:10,324 - ERROR - AppLogger - Error: ID '4' already exists.
+2025-12-09 22:47:26,940 - ERROR - AppLogger - Error: Email 'sucuk@gmail' already exists.
+2025-12-09 22:47:55,902 - INFO - AppLogger - Course: Data saved successfully.
+2025-12-09 22:47:55,903 - INFO - AppLogger - Course created (ID: f4341ba3-cc35-411a-965d-3183eb9805d0)
+2025-12-09 22:48:18,435 - ERROR - AppLogger - Error: ID '4' already exists.
+2025-12-09 22:48:41,831 - INFO - AppLogger - Quiz: Data saved successfully.
+2025-12-09 22:48:41,831 - INFO - AppLogger - Quiz created (ID: 1)
+2025-12-09 22:49:06,842 - INFO - AppLogger - Quiz: Data saved successfully.
+2025-12-09 22:49:06,843 - INFO - AppLogger - Quiz created (ID: 6)
+2025-12-09 22:49:20,455 - ERROR - AppLogger - Error: Course ID 9 does not exist.
+2025-12-09 22:49:51,432 - INFO - AppLogger - Progress: Data saved successfully.
+2025-12-09 22:49:51,432 - INFO - AppLogger - Progress created (ID: 242a4891-0257-41f0-bb8c-b9180e88a5f5)
+2025-12-09 22:51:40,634 - INFO - AppLogger - Application exited.
+2025-12-09 22:51:42,138 - INFO - AppLogger - Application started
+2025-12-09 22:52:20,523 - INFO - AppLogger - Application exited.
+2025-12-09 22:52:53,681 - INFO - AppLogger - Application started
+2025-12-09 22:53:14,394 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 22:53:14,394 - INFO - AppLogger - Student updated (ID: 4)
+2025-12-09 22:53:38,812 - INFO - AppLogger - Course: Data saved successfully.
+2025-12-09 22:53:38,812 - INFO - AppLogger - Course updated (ID: 4)
+2025-12-09 22:54:09,619 - INFO - AppLogger - Quiz: Data saved successfully.
+2025-12-09 22:54:09,619 - INFO - AppLogger - Quiz updated (ID: 6)
+2025-12-09 22:54:33,245 - ERROR - AppLogger - Score 11 out of range for quiz 6
+2025-12-09 22:54:33,245 - ERROR - AppLogger - Error: Score out of range.
+2025-12-09 22:54:38,343 - INFO - AppLogger - Application exited.
+2025-12-09 22:55:09,329 - INFO - AppLogger - Application started
+2025-12-09 22:55:31,217 - INFO - AppLogger - Application started
+2025-12-09 22:55:40,164 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 22:55:40,164 - INFO - AppLogger - Student deleted (ID: 4)
+2025-12-09 22:55:47,034 - INFO - AppLogger - Course: Data saved successfully.
+2025-12-09 22:55:47,034 - INFO - AppLogger - Course deleted (ID: 4)
+2025-12-09 22:55:51,261 - INFO - AppLogger - Application exited.
+2025-12-09 22:56:27,961 - INFO - AppLogger - Application started
+2025-12-09 22:56:43,200 - INFO - AppLogger - Application exited.

@@ -50,12 +50,17 @@ class CourseService:
 
 
 class QuizService:
-    def __init__(self, repo):
+    def __init__(self, repo, course_repo):
         self.repo = repo
+        self.course_repo = course_repo
 
     def create_quiz(self, quiz_id, course_id, title, max_score):
+    # Check course exists
+        if not self.course_repo.get_by_id(course_id):
+            raise ValueError(f"Course ID {course_id} does not exist.")
         quiz = EntityFactory.create_entity("Quiz", id=quiz_id, course_id=course_id, title=title, max_score=max_score)
         self.repo.create(quiz)
+
         logger.info(f"Quiz created (ID: {quiz_id})")
 
     def update_quiz(self, quiz_id, title, max_score):
