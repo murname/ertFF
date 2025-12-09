@@ -1,6 +1,6 @@
 from src.repository import JsonRepository
 from src.services import StudentService, CourseService, QuizService, ProgressService
-from src.utils import input_non_empty, input_optional_id, input_number, input_alpha_spaces
+from src.utils import input_non_empty, input_optional_id, input_number, input_alpha_spaces, input_email
 from src.logging_config import logger
 
 def run():
@@ -56,7 +56,7 @@ def run():
             if choice == "1":
                 sid = input_optional_id("Student ID (Enter for auto): ")
                 name = input_alpha_spaces("Name: ")
-                email = input_non_empty("Email: ")
+                email = input_email("Email: ")
                 student_service.create_student(sid, name, email)
 
             elif choice == "2":
@@ -109,7 +109,7 @@ def run():
             if choice == "9":
                 sid = input_non_empty("Student ID to update: ")
                 name = input_alpha_spaces("New Name: ")
-                email = input_non_empty("New Email: ")
+                email = input_email("New Email: ")
                 student_service.update_student(sid, name, email)
 
             elif choice == "10":
