@@ -154,3 +154,42 @@
 2025-12-07 23:40:49,372 - INFO - AppLogger - Application exited.
 2025-12-07 23:40:51,149 - INFO - AppLogger - Application started
 2025-12-07 23:41:37,586 - INFO - AppLogger - Application exited.
+2025-12-09 20:06:12,201 - INFO - AppLogger - Application started
+2025-12-09 20:16:55,083 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:16:55,083 - INFO - AppLogger - Student created with ID 09a41c58-0d16-4a2b-a3e2-a7c50ec30783
+2025-12-09 20:16:55,083 - INFO - AppLogger - Student created (ID: 09a41c58-0d16-4a2b-a3e2-a7c50ec30783)
+2025-12-09 20:17:15,873 - ERROR - AppLogger - Student ID jhdfjdsf not found for update
+2025-12-09 20:17:15,873 - ERROR - AppLogger - Error: Student ID jhdfjdsf not found.
+2025-12-09 20:37:28,392 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:37:28,392 - INFO - AppLogger - Student created with ID 12345a
+2025-12-09 20:37:28,392 - INFO - AppLogger - Student created (ID: 12345a)
+2025-12-09 20:37:46,262 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:37:46,262 - INFO - AppLogger - Student created with ID 1234a
+2025-12-09 20:37:46,262 - INFO - AppLogger - Student created (ID: 1234a)
+2025-12-09 20:39:31,507 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:39:31,507 - INFO - AppLogger - Student created with ID fdsfa
+2025-12-09 20:39:31,507 - INFO - AppLogger - Student created (ID: fdsfa)
+2025-12-09 20:39:58,647 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:39:58,648 - INFO - AppLogger - Student created with ID sdasd
+2025-12-09 20:39:58,648 - INFO - AppLogger - Student created (ID: sdasd)
+2025-12-09 20:42:09,992 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:42:09,992 - INFO - AppLogger - Student created with ID 2224ff59-f5c7-4c42-aaff-3895b77c722a
+2025-12-09 20:42:09,992 - INFO - AppLogger - Student created (ID: 2224ff59-f5c7-4c42-aaff-3895b77c722a)
+2025-12-09 20:47:12,458 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:47:12,458 - INFO - AppLogger - Student created with ID sdfds
+2025-12-09 20:47:12,458 - INFO - AppLogger - Student created (ID: sdfds)
+2025-12-09 20:49:23,718 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:49:23,718 - INFO - AppLogger - Student created with ID aaaa
+2025-12-09 20:49:23,718 - INFO - AppLogger - Student created (ID: aaaa)
+2025-12-09 20:51:17,838 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 20:51:17,838 - INFO - AppLogger - Student created with ID 40456a1c-80d4-4af8-950b-e8297d21c562
+2025-12-09 20:51:17,838 - INFO - AppLogger - Student created (ID: 40456a1c-80d4-4af8-950b-e8297d21c562)
+2025-12-09 21:04:26,575 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 21:04:26,575 - INFO - AppLogger - Student created with ID 0f2f4c0c-18b1-4b21-a86f-bceafd68dc14
+2025-12-09 21:04:26,575 - INFO - AppLogger - Student created (ID: 0f2f4c0c-18b1-4b21-a86f-bceafd68dc14)
+2025-12-09 21:04:53,636 - INFO - AppLogger - Student: Data saved successfully.
+2025-12-09 21:04:53,637 - INFO - AppLogger - Student created with ID fgjhhgj
+2025-12-09 21:04:53,637 - INFO - AppLogger - Student created (ID: fgjhhgj)
+2025-12-09 21:06:12,276 - INFO - AppLogger - Application started
+2025-12-09 21:06:16,662 - INFO - AppLogger - Application exited.
+2025-12-09 21:15:23,245 - INFO - AppLogger - Application started
