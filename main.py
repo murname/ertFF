@@ -1,6 +1,7 @@
 from src.repository import JsonRepository
 from src.services import StudentService, CourseService, QuizService, ProgressService
-from src.utils import input_non_empty, input_optional_id, input_number, input_alpha_spaces, input_email
+# Ensure input_email is imported from utils
+from src.utils import input_non_empty, input_optional_id, input_number, input_alpha_spaces, input_email 
 from src.logging_config import logger
 
 def run():
@@ -56,7 +57,7 @@ def run():
             if choice == "1":
                 sid = input_optional_id("Student ID (Enter for auto): ")
                 name = input_alpha_spaces("Name: ")
-                email = input_email("Email: ")
+                email = input_email("Email: ") # <-- CHANGED TO input_email
                 student_service.create_student(sid, name, email)
 
             elif choice == "2":
@@ -102,14 +103,14 @@ def run():
                 print(progress_repo.get_by_id(pid) or "Not found.")
         except ValueError as e:
             logger.error(f"Error: {e}")
-            print(f"Error: {e}")    
+            print(f"Error: {e}")  
 
         # ------- UPDATE -------
         try:
             if choice == "9":
                 sid = input_non_empty("Student ID to update: ")
                 name = input_alpha_spaces("New Name: ")
-                email = input_email("New Email: ")
+                email = input_email("New Email: ") # <-- CHANGED TO input_email
                 student_service.update_student(sid, name, email)
 
             elif choice == "10":
